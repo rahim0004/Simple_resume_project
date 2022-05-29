@@ -1,0 +1,51 @@
+.d:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(247, 195, 101);
+    transition:0.3s ease-in;
+    /* border-bottom: 1px solid yellow; */
+}
+.d.active{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 166, 0);
+    font-weight: bold;
+}
+.d{
+    color: rgb(255, 187, 0);
+    transition:0.2s ease-out;
+}
+
+.img-thumbnail{
+    border-radius: 100%;
+}
+
+.heading{
+    font-family: 'Satisfy', cursive;
+
+}
+
+html,body{
+    height: 100%;
+    background-color: gray;
+}
+.container-fluid{
+    min-height: 100%;
+}
+
+
+.c-icon{
+    color: chartreuse;
+}
+.sum{
+    color: rgba(240, 248, 255, 0.562);
+}
+
+.green{
+    background-color: rgba(12, 216, 22, 0.993);
+    color: black;
+}
+.yellow{
+    background-color: rgb(247, 233, 48);
+}
+.red{
+    background-color: rgb(255, 72, 0);
+}

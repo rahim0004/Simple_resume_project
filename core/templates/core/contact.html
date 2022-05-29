@@ -1,0 +1,48 @@
+{% extends 'core/base.html' %}
+{% block title %}Contact{% endblock title %}
+{% block content %}
+<div class="container">
+    <h1 class="my-5 border-bottom text-warning">CONTACT US</h1>
+<div class="row text-white mb-5">
+    <p class="sum mx-auto mb-5 text-center">Do you have any question ? Please do not hesitate to contact. I'll come back to you within a matter of hours to help you.</p>
+    <div class="col-sm-9 mb-5 me-5 w-75">
+        <form class="row g-3">
+            <div class="col-md-6">
+              <label for="inputName" class="form-label">Name</label>
+              <input type="text" class="form-control" id="inputName">
+            </div>
+            <div class="col-md-6">
+              <label for="inputEmail" class="form-label">Email *</label>
+              <input type="email" class="form-control" id="inputEmail">
+            </div>
+            <div class="col-12">
+              <label for="inputAddress" class="form-label">Your Subject</label>
+              <input type="text" class="form-control" id="inputAddress">
+            </div>
+            <div class="col-12">
+                <label for="inputAddress2" class="form-label">Your Message *</label>
+                <textarea class="form-control" id="inputAddress2" rows="3"></textarea>
+            </div>
+            
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary">Sign in</button>
+            </div>
+          </form>
+    </div>
+    <div class="col-sm-1">
+        <ul class="list-unstyled">
+            <li class="mt-2">
+                <i class="c-icon fa-solid fa-location-dot fa-2x ms-5 ps-4"></i><p>Chattogram,Feni,Bangladesh</p>
+            </li>
+            <li class="my-5"><i class="c-icon fa-solid fa-phone-flip fa-2x ms-5 ps-4"></i><p class="ms-4">+8801XXXXXXXXX</p></li>
+            <li><i class="c-icon fa-solid fa-envelope fa-2x ms-5 ps-4"></i><p>omarrahim186@gmail.com</p></li>
+        </ul>
+    </div>
+</div>
+    
+    
+    
+</div>
+    
+
+{% endblock content %}

@@ -1,0 +1,24 @@
+{% extends 'core/base.html' %}
+{% load static %}
+{% block title %}Home{% endblock title %}
+{% block content %}
+
+<div class="mt-5">
+    <div class="text-center">
+        <img  src="{% static 'core/images/images.jfif' %}" alt="FeatureImage" class="img-thumbnail", width='200px', height="120px">
+    </div>
+    <div class='mx-5 text-justify px-5' style="line-height:2rem">
+        <h1 class="mt-5 font-weight-bold text-white heading">Hello,</h1>
+        <div class="text-white ">
+            <p style="text-indent:100px">I am <strong class="text-warning">Omar Rayhan Uddin</strong> having 3 years of full stack web development experience for global businesses. I offer technical expertise you are seeking for your web developer position.</p>
+            <p > <strong class="text-warning">Lorem text</strong>  Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste veniam qui deleniti  Voluptate sequi amet harum, sit ex quasi maiores impedit, esse qui voluptates, fuga laborum est saepe recusandae.</p>
+            <p >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam, veritati pariatur molestias quaerat? Architecto hic repellat beatae, praesentium exercitationem pariatur neque vitae.</p>
+        </div>
+    </div>
+    <div class="text-center">
+        <a href="{% url 'contact' %}" class="btn btn-outline-warning my-5">Hire Me</a>
+        <a href="{% url 'contact' %}" class="btn btn-outline-info my-3 mx-3">Contact Me</a>
+    </div>
+</div>
+
+{% endblock content %}
